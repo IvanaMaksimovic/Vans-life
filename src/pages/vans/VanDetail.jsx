@@ -38,7 +38,7 @@ export default function VanDetail() {
                     <h2>{van.name}</h2>
                     <p className="van-price"><span>${van.price}</span>/day</p>
                     <p>{van.description}</p>
-                    <button className="link-button">Rent this van</button>
+                    <Link to="/contentNotAvailable" className="link-button">Rent this van</Link>
                 </div>
             {/* ) : <h2>Loading...</h2>
             } */}

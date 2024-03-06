@@ -3,7 +3,9 @@ import React from 'react'
 export default function Income() {
   return (
     <div>
-      <h1 className="headerInHost">Welcome to the Income Opportunities Page!</h1>
+   <div className='image-container-income'>
+      <h1 className="headerInHost text-income">Welcome to the Income Opportunities Page!</h1>
+   </div>
       <p className="paragraphInHost">Ready to turn your love for vans into a source of income? 
         Explore the various income opportunities available through the Vans Application and start earning today!</p>
 

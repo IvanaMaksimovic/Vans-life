@@ -35,7 +35,10 @@ export default function HostVans() {
 
     return (
         <section>
-            <h1 className="host-vans-title">Your listed vans</h1>
+            <div className="image-container-hostvans">
+            <h1 className="host-vans-title text-hostvans">Your listed vans</h1>
+            </div>
+
             <div className="host-vans-list">
                 {/* {
                     vans.length > 0 ? ( */}

@@ -3,7 +3,9 @@ import React from 'react';
 export default function Dashboard() {
   return (
     <>
-      <h1 className='headerInHost'>Plan your perfect picnic</h1>
+    <div class="image-container-dashboard">
+      <h1 className='headerInHost text-dashboard'>Plan your perfect picnic</h1>
+    </div>
       
       <p className='paragraphInHost'>
 Plan your perfect picnic or outing in nature with our comfortable and spacious vans! 
