@@ -1,4 +1,12 @@
 
+// Currently I'm looking at the new "loader" feature and how to integrate it in my application. But the loaders
+// do not work for nested <Routes />. The documentation says:
+
+// "If you're using a data router like createBrowserRouter it is uncommon to use this component as it does not participate in data loading."
+
+// So this is the way I've done my application.
+
+
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
