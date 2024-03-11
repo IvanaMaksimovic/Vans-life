@@ -12,6 +12,8 @@ export default function HostVanDetail() {
 
   const currentVan = useLoaderData();
 
+  // It is not applicable due to the use of useLoaderData:
+
   // const [currentVan, setCurrentVan] = React.useState(null);
 
   // React.useEffect(() => {

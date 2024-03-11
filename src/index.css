@@ -7,7 +7,6 @@ html, body {
   padding: 0;
   background-color: #FFF7ED;
   font-family: "Inter", sans-serif;
-  /* max-width: 1440px; */
   margin-inline: auto;
 }
 
@@ -366,6 +365,7 @@ i[class*='van-type-'] {
   background-size: cover;
   position: relative;
   height: 300px;
+  margin-top: 40px;
 }
 
 .text-income {
@@ -388,14 +388,14 @@ i[class*='van-type-'] {
   background-image: url("./assets/images/image\ 54.png");
   background-size: cover;
   position: relative;
-  height: 200px;
+  height: 300px;
   margin-block: 40px;
 }
 
 .text-hostvans {
   background-color: white;
   color: black;
-  font-size: 5vh; 
+  font-size: 10vh; 
   font-weight: bold;
   margin: 0 auto;
   padding: 10px;
@@ -701,13 +701,13 @@ i[class*='van-type-'] {
 }
   
 /* REVIEW */
-.reviewModal{
+ .reviewModal{
   margin-top: 6rem;
   max-width: 900px;
   margin-inline: auto;
   border: 2px solid rgb(209, 206, 206);
   padding-bottom: 20px;
-}
+} 
 
 .reviewModal :first-child h1{
   border-bottom: 2px solid rgb(209, 206, 206);
@@ -726,4 +726,210 @@ i[class*='van-type-'] {
 
 .reviewModal :nth-child(2) a:hover {
   text-decoration: underline;
+} */
+
+.section-for-comments {
+ margin-inline: 50px;
+ padding-bottom: 50px;
+}
+
+.section-for-comments h2 {
+  margin-left: 50px;;
+  font-size: 45px;
+  color: white;
+  text-shadow: 2px 2px 3px black, 0 0 25px rgb(64, 64, 67), 0 0 5px rgb(16, 16, 57);
+}
+
+.section-for-comments li {
+  margin-inline: 40px;
+}
+
+.place-for-details-about-user {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.place-for-comments {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.deleteButton {
+  background-color: rgb(212, 63, 63);
+}
+
+.deleteButton:hover {
+  background-color: rgb(113, 20, 20);
+  box-shadow: 5px 5px 10px 6px rgb(175, 177, 179);
+}
+
+.editButton {
+  background-color: rgb(46, 145, 135);
+  margin-inline: 20px;
+}
+
+.editButton:hover {
+  background-color: rgb(4, 66, 59);
+  box-shadow: 5px 5px 10px 6px rgb(175, 177, 179);
+}
+
+.section-for-comments button {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.reviewPage {
+  padding-bottom: 50px;
+}
+
+.reviewPage input {
+  display: block;
+  width: 400px;
+  margin-block: 15px;
+  border: none;
+  height: 30px;
+  text-indent: 5px;
+  color:rgb(0, 0, 0);
+  margin-left: 40px;
+}
+
+.reviewPage textarea {
+  display: block;
+  width: 400px;
+  margin-block: 15px;
+  border: none;
+  color:rgb(0, 0, 0);
+  text-indent: 5px;
+  margin-left: 40px;
+}
+
+.reviewPage textarea:focus,
+.reviewPage input:focus {
+  outline: solid black;
+  background-color: #e7e7e7;
+}
+
+.reviewPage textarea::placeholder,
+.reviewPage input::placeholder {
+  color:rgb(35, 33, 33);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-indent: 5px;
+}
+
+form {
+  width: 100%;
+  margin-top: 50px;
+  background-image: url(./assets/images/image\ 57.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 15px 40px;
+  position: relative;
+}
+form h4 {
+  margin-left: 40px;
+}
+
+form button {
+  color: white;
+  background-color: rgb(66, 153, 185);
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-left: 40px;
+}
+
+form button:hover {
+  border: 2px solid rgb(29, 67, 81);
+  cursor: pointer;
+  background-color: rgb(27, 62, 74);
+  box-shadow: 5px 5px 10px 6px rgb(175, 177, 179);
+
+}
+.title-in-review {
+  background-color: white;
+  color: black;
+  font-size: 5vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+
+/* VERIFICATION MODAL  */
+
+.verification-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.verification-modal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;;
+}
+
+.verification-modal h3 {
+  color: #111;
+}
+
+.verification-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.verification-buttons button:nth-child(1) {
+  background-color: rgb(231, 20, 20);
+  color: white;
+  padding: 10px;
+  margin-right: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px 6px rgb(175, 177, 179);
+}
+
+.verification-buttons button:nth-child(1):hover {
+  background-color: rgb(110, 9, 9);
+}
+
+.verification-buttons button:nth-child(2) {
+  background-color: rgb(20, 180, 20);
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px 6px rgb(175, 177, 179);
+}
+
+.verification-buttons button:nth-child(2):hover {
+  background-color: rgb(10, 82, 10);
 }

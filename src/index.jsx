@@ -22,7 +22,7 @@ import VanDetail, {loader as vanDetailLoader} from './pages/vans/VanDetail';
 import Layout from "./components/Layout";
 import Dashboard from './pages/host/Dashboard';
 import Income from './pages/host/Income';
-import Reviews from './pages/host/Reviews';
+// import Reviews from './pages/host/Reviews';
 import HostLayout from './components/HostLayout';
 import HostVans, {loader as hostVansLoader} from './pages/host/HostVans';
 import HostVanDetail, {loader as hostVanDetailLoader} from './pages/host/HostVanDetail';
@@ -32,6 +32,7 @@ import HostVanInfo from './pages/host/HostVanInfo';
 import HostVanPricing from './pages/host/HostVanPricing';
 import NotFound from './pages/NotFound';
 import ContentNotAvailable from './components/ContentNotAvailable';
+import Reviews from './pages/host/Reviews/index';
 
 const router = createBrowserRouter(createRoutesFromElements(
 <Route path="/" element={<Layout />}>
